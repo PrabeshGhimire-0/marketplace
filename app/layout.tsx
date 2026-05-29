@@ -6,6 +6,8 @@ export const metadata = {
   description: 'Buy and sell unwanted stuff near you',
 }
 
+export const dynamic = 'force-dynamic'
+
 export default function RootLayout({
   children,
 }: {
